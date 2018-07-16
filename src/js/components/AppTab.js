@@ -13,7 +13,7 @@ import AppCard from "./AppCard";
 
 function TabContainer({ children, dir }) {
     return (
-        <Typography component="div" dir={dir} style={{ padding: 8 * 3 }}>
+        <Typography component="div" dir={dir} style={{ padding: 1 }}>
             {children}
         </Typography>
     );

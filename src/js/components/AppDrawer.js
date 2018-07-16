@@ -123,7 +123,7 @@ class AppSwipeableDrawer extends React.Component {
 
                 <List component="nav">
 
-                    <Link to="/">
+                    <Link to="/" style={{ textDecoration: 'none' }}>
                         <ListItem button>
                             <ListItemIcon>
                                 <ShoppingCart />
@@ -132,7 +132,7 @@ class AppSwipeableDrawer extends React.Component {
                         </ListItem>
                     </Link>
 
-                    <Link to="categories">
+                    <Link to="categories" style={{ textDecoration: 'none' }}>
                         <ListItem button>
                             <ListItemIcon>
                                 <Toc />
@@ -141,7 +141,7 @@ class AppSwipeableDrawer extends React.Component {
                         </ListItem>
                     </Link>
 
-                    <Link to="vendors">
+                    <Link to="vendors" style={{ textDecoration: 'none' }}>
                         <ListItem button>
                             <ListItemIcon>
                                 <Business />
@@ -150,7 +150,7 @@ class AppSwipeableDrawer extends React.Component {
                         </ListItem>
                     </Link>
 
-                    <Link to="subscriptions">
+                    <Link to="subscriptions" style={{ textDecoration: 'none' }}>
                         <ListItem button>
                             <ListItemIcon>
                                 <Subscriptions />

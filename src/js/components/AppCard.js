@@ -73,7 +73,7 @@ class AppCard extends React.Component {
             <div>
 
                 <Card className={classes.card}>
-                    <Link to="promo-detail">
+                    <Link to="promo-detail" style={{ textDecoration: 'none' }}>
                     <CardHeader
                         avatar={
                   <Avatar

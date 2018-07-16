@@ -15,6 +15,8 @@ import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import AppSwipeableDrawer from "./AppDrawer";
 
+import {withRouter} from 'react-router-dom';
+
 const styles = {
     root: {
         flexGrow: 1
@@ -39,6 +41,8 @@ class HeaderAppBar extends React.Component {
             anchorEl: null,
             isDrawerOpen: false
         }
+
+        console.log(this.props.location);
     }
 
     handleDrawer = () => {
